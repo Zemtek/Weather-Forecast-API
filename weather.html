@@ -41,7 +41,7 @@
               body.innerHTML = `
                 <div>
                   <div class="flex items-center justify-center mt-4">
-                    ${responseData.weather[0].main.toLowerCase().includes('cloud') ? '<img src="./Weather-Forecast-API/images/clouds.png" alt="Clouds">' : '<img src="./images/clear.png" alt="Clear">'}
+                    ${responseData.weather[0].main.toLowerCase().includes('cloud') ? '<img src="clouds.png" alt="Clouds">' : '<img src="./images/clear.png" alt="Clear">'}
                   </div>
                   <div class="font-semibold text-[64px]">
                     ${responseData.main.temp}<sup>°C</sup>
